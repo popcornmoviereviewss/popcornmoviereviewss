@@ -1,0 +1,99 @@
+*
+{
+	background: #000;
+	color: #fff;
+}
+
+hr
+{
+	background-color: #fff;
+}
+
+.all-posts .posters
+{
+	height: 70vh;	
+	border-radius: 10px;
+}
+
+/*.card
+{
+	margin: 0!important;
+	padding: 0!important;
+}*/
+
+.all-posts h6
+{
+	text-align: center;
+	letter-spacing: 4px;
+	font-family: 'Lucida Console'!important;
+}
+
+.all-posts .rating-icon
+{
+	height: 3vh;
+	margin-right: 1px!important;	
+}
+
+.all-posts .rating-icon-small
+{
+	height: 2vh;	
+}
+
+.all-posts .rating-icon-med
+{
+	height: 3vh;	
+}
+.all-posts .rating-icon-large
+{
+	height: 4vh;	
+}
+
+.all-posts .rating-icon-tub
+{
+	height: 5vh;
+	width: 8vh;	
+}
+
+.all-posts .rating-icon-jumbo
+{
+	height: 6vh;	
+}
+
+.review-post
+{
+	width: 90%;
+	margin-left:5%;
+	margin-right: 5%;
+}
+
+.review-post p
+{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+
+}
+
+.review-post .review-heading
+{
+	font-weight: bold;
+}
+
+.movie-banner
+{
+	width: 100%;
+	height: auto;
+}
+
+@media only screen and (max-width: 991px) {
+	.all-posts img
+	{	
+		height: 25vh;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.all-posts img
+	{	
+		height: 22vh;
+	}
+}
