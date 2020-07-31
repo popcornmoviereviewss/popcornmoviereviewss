@@ -15,12 +15,6 @@ hr
 	border-radius: 10px;
 }
 
-/*.card
-{
-	margin: 0!important;
-	padding: 0!important;
-}*/
-
 .all-posts h6
 {
 	text-align: center;
@@ -32,31 +26,6 @@ hr
 {
 	height: 3vh;
 	margin-right: 1px!important;	
-}
-
-.all-posts .rating-icon-small
-{
-	height: 2vh;	
-}
-
-.all-posts .rating-icon-med
-{
-	height: 3vh;	
-}
-.all-posts .rating-icon-large
-{
-	height: 4vh;	
-}
-
-.all-posts .rating-icon-tub
-{
-	height: 5vh;
-	width: 8vh;	
-}
-
-.all-posts .rating-icon-jumbo
-{
-	height: 6vh;	
 }
 
 .review-post
@@ -85,15 +54,38 @@ hr
 }
 
 @media only screen and (max-width: 991px) {
-	.all-posts img
+	.all-posts .posters
 	{	
-		height: 25vh;
+		height: 30vh;
+	}
+
+	.all-posts h6
+	{		
+		letter-spacing: 2px;		
+	}
+
+	.all-posts .rating-icon
+	{
+		height: 1.5vh;
+		margin-right: 0px!important;	
 	}
 }
 
 @media only screen and (max-width: 450px) {
-	.all-posts img
+	.all-posts .posters
 	{	
-		height: 22vh;
+		height: 30vh;
+	}
+
+	.all-posts h6
+	{		
+		letter-spacing: 0.5px;
+		font-size: 0.8rem;		
+	}
+
+	.all-posts .rating-icon
+	{
+		height: 1vh;
+		margin-right: 0px!important;	
 	}
 }
